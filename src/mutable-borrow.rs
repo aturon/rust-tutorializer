@@ -1,5 +1,5 @@
 pub fn main() {
-    let (mut str1, str) = two_words();
+    let (mut str1, str2) = two_words();
     str1 = join_words(str1, str2);
     println!("concatenated string is {:?}", str1);
 }
